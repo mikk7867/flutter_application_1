@@ -12,10 +12,8 @@ Forbind med en mobiltelefon (jeg gjorde det via USB, med developer settings akti
 Tilføj api_keys.dart i lib/api/secrets med følgende:
 
 
-class ApiKeys {
-
-  static const String omdbApiKey = "api nøgle som string";
-  
+class ApiKeys {  
+  static const String omdbApiKey = "api nøgle som string";  
 }
 
 
