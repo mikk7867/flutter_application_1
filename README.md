@@ -1,6 +1,19 @@
 # flutter_application_1
 
-A new Flutter project.
+A flutter app that houses a watchlist for movies, with the ability to choose one at random at the users behest. 
+
+## School Task
+
+### Idriftsættelse:
+For at tæste applikationen, følg venligst guiden på dette [link](https://docs.flutter.dev/install/with-vs-code).
+Forbind med en mobiltelefon (jeg gjorde det via USB, med developer settings aktiveret på telefonen)
+Tilføj api_keys.dart i lib/api/secrets med følgende:
+
+class ApiKeys {
+  static const String omdbApiKey = "api nøgle som string";
+}
+
+Kør 'flutter run' i terminalen
 
 ## Getting Started
 
